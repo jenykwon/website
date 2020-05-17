@@ -1,0 +1,316 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Jeny N. Kwon"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#4682B4"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Jeny N. Kwon"
+        tagline = "Recent College Graduate"
+        avatar = "ppic.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Boston, MA"
+
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:#"
+        text = "jeny.n.kwon@gmail.com"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/jeny-kwon/"
+        text = "jeny-kwon"
+        [[params.contact.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/jnykwon"
+        text = "jnykwon"
+
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+        
+        [[params.education.list]]
+        degree = "BA in Economics & Statistical and Data Sciences"
+        university = "Smith College (Northampton, MA)"
+        dates = "2016- 2020"
+        
+        [[params.education.list]]
+        degree = "Certificate: Business Analytics"
+        university = "Harvard Business School Online"
+        dates = "2019"
+        
+        [[params.education.list]]
+        degree = "Summer Venture in Management Program (SVMP)"
+        university = "Harvard Business School"
+        dates = "2019"
+                
+        [[params.education.list]]
+        degree = "Junior Year Abroad"
+        university = "London School of Economics and Political Science (LSE)"
+        dates = "2018-2019"
+        
+        [[params.education.list]]
+        degree = "Bootcamp: Financial Accounting and Modeling"
+        university = "Wall Street Prep (Financially Sponsored by Smith College)"
+        dates = "2017"
+        
+        
+ 
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "R (scraping, wrangling, analysis, data visualization)"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "SQL"
+        [[params.skills.list.items]]
+        details = "Power BI/Tableau"
+        [[params.skills.list.items]]
+        details = "Execl/Microsoft Office"
+        [[params.skills.list.items]]
+        details = "Bloomberg Terminal"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communicator"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+ 
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        title = "Execution Team Summer Analyst"
+        dates = "May 2019 - Aug 2019"
+        company = "Chatham Financial- Global Real Estate (Kennett Sq., PA)"
+        details = "SQL, R, Power BI, Excel, Bloomberg Terminal"
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native- Argentina 12 years"
+        [[params.languages.list]]
+        name = "Korean"
+        level = "Intermediate"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Gayageum"
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Travel"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Jeny is a recent graduate from Smith College. She majored in Economics & Statistical and Data Sciences, while also obtaining a minor in Mathematics. Previous experiences are in financial services and consulting. Her main career goal is to apply data analysis skills in the technology and financial industries."
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        #[[params.experience.list]]
+        #title = "Incoming Analyst"
+        #dates = "Sep 2020 - Present"
+        #company = "Analysis Group (Boston, MA)"
+   
+
+        [[params.experience.list]]
+        title = "Execution Team Summer Analyst"
+        dates = "May 2019 - Aug 2019"
+        company = "Chatham Financial- Global Real Estate (Kennett Sq., PA)"
+        details = "SQL, R, Power BI, Excel, Bloomberg Terminal"
+        [[params.experience.list.items]]
+        details = "Developed a dashboard with live connections to internal databases to allow the leadership team to quickly access and understand key metrics pertaining to the business"
+        [[params.experience.list.items]]
+        details = "Analyzed the data output to explore any business and transactional trends within the data"
+        [[params.experience.list.items]]
+        details = "Customized dashboards to best support each leader’s role within the company- dashboards will be displayed on corresponding individual Salesforce accounts"
+        [[params.experience.list.items]]
+        details = "Valuated OTC derivatives (IR Swaps and Options) to provide real estate investors with fair pricing indications"
+
+        [[params.experience.list]]
+        title = "Treasury Advisory Team Summer Analyst"
+        dates = "May 2018 - Aug 2018"
+        company = "Chatham Financial- Global Corporates (Kenett Sq., PA)"
+        details = "Excel, PowerPoint, Bloomberg Terminal"
+        [[params.experience.list.items]]
+        details = "Analyzed over 300,000 historical OTC derivative trades in order to quantify value proposition based on different variables (e.g. product type, notional amount, tenor, currency pair, etc.)"
+        [[params.experience.list.items]]
+        details = "Performed daily evaluations and analysis to update clients on rate indications and market color"
+        
+        [[params.experience.list]]
+        title = "Research Intern"
+        dates = "Jan 2018 - May 2018"
+        company = "Verité- Non-profit labor supply chain consulting (Amherst, MA)"
+        details = "Python, Excel, Word"
+        [[params.experience.list.items]]
+        details = "Automated the process of updating dozens of documents using python to make the tasks more efficient"
+        [[params.experience.list.items]]
+        details = "Conducted targeted research, reviewing a wide range of sources, including newspaper articles and academic studies"
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Billboard Hot 100 Chart: Track and Lyric Analysis"
+        meta = "Personal Project (2020)"
+        icon = "fab fa-github"
+        url = "https://github.com/jnykwon/BH100_lyrics"
+        text = "github.com/jnykwon/BH100_lyrics"
+        tagline = "Scraped the top 100 tracks for 2019 and 2020 YTD in order to find patterns and conduct text analysis on the lyrics. Main skills: web scraping, API usage, text analysis, data visualization. "
+
+        [[params.projects.list]]
+        title = "Smith College Communicating COVID-19"
+        meta = "Smith College Group Project (Spring 2020)"
+        #icon = "fab fa-github"
+        text = "Public repo pending group approval"
+        tagline = "Conducted sentiment text analysis on the community letters sent by the President to assess Smith College's response to the COVID-19 pandemic. Jeny led the scraping and cleaning process for the community letters."
+
+        [[params.projects.list]]
+        title = "Multiple Regression Analysis: Health Condition and Income"
+        meta = "Smith College Group Project (Spring 2018)"
+        icon = "fab fa-github"
+        url = "https://github.com/jnykwon/mlr_project"
+        text = "github.com/jnykwon/mlr_project"
+        tagline = "Applied topics in multiple regression to explore the relationship between health condition and individual income among disabled people."
+
+       
+
+    [params.information]
+        enable = true
+ 
+
+        [[params.information.list]]
+        title = "Data Science Coursework"
+        [[params.information.list.items]]
+        details = "Machine Learning, Data Structures, Communicating with Data, Data Journalism, Applications in Education"
+
+        [[params.information.list]]
+        title = "Math & Statistics Coursework"
+        details = "Multiple Regression, Probability, Multivariable Calculus, Linear Algebra, Statistics and Econometrics"
+        
+        [[params.information.list]]
+        title = "Economics Coursework"
+        [[params.information.list.items]]
+        details = "Industrial Organization & Antitrust Policy, Global Financial Markets, International Trade & Commercial Policy, Macro/Microeconomics"
+
+        
+        
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:#"
+        title = "jeny.n.kwon@gmail.com"
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/jeny-kwon/"
+        title = "jeny-kwon"
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/jnykwon"
+        title = "jnykwon"
+
+
+
+
+
+
