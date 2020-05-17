@@ -49,8 +49,8 @@ publishDir = "docs"
         text = "jeny-kwon"
         [[params.contact.list]]
         icon = "fab fa-github"
-        url = "https://github.com/jnykwon"
-        text = "jnykwon"
+        url = "https://github.com/jenykwon"
+        text = "jenykwon"
 
 
 
@@ -244,8 +244,8 @@ publishDir = "docs"
         title = "Billboard Hot 100 Chart: Track and Lyric Analysis"
         meta = "Personal Project (2020)"
         icon = "fab fa-github"
-        url = "https://github.com/jnykwon/BH100_lyrics"
-        text = "github.com/jnykwon/BH100_lyrics"
+        url = "https://github.com/jenykwon/BH100_lyrics"
+        text = "github.com/jenykwon/BH100_lyrics"
         tagline = "Scraped the top 100 tracks for 2019 and 2020 YTD in order to find patterns and conduct text analysis on the lyrics. Main skills: web scraping, API usage, text analysis, data visualization. "
 
         [[params.projects.list]]
@@ -259,8 +259,8 @@ publishDir = "docs"
         title = "Multiple Regression Analysis: Health Condition and Income"
         meta = "Smith College Group Project (Spring 2018)"
         icon = "fab fa-github"
-        url = "https://github.com/jnykwon/mlr_project"
-        text = "github.com/jnykwon/mlr_project"
+        url = "https://github.com/jenykwon/mlr_project"
+        text = "github.com/jenykwon/mlr_project"
         tagline = "Applied topics in multiple regression to explore the relationship between health condition and individual income among disabled people."
 
        
@@ -306,8 +306,8 @@ publishDir = "docs"
         title = "jeny-kwon"
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "https://github.com/jnykwon"
-        title = "jnykwon"
+        url = "https://github.com/jenykwon"
+        title = "jenykwon"
 
 
 
