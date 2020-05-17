@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl="https://jenykwon.github.io/personal_website/"
+baseurl="https://jenykwon.github.io/website/"
 languageCode = "en"
 title = "Jeny N. Kwon"
 theme = "hugo-devresume-theme"
