@@ -134,10 +134,49 @@ publishDir = "docs"
         enable = true
 
         [[params.awards.list]]
-        title = "Execution Team Summer Analyst"
-        dates = "May 2019 - Aug 2019"
-        company = "Chatham Financial- Global Real Estate (Kennett Sq., PA)"
-        details = "SQL, R, Power BI, Excel, Bloomberg Terminal"
+        title = "Faculty Search Advisory Committee Member"
+        dates = "Jan 2020 - May 2020"
+        company = "Economics Department | Smith College"
+        
+        [[params.awards.list]]
+        title = "Student Liaison"
+        dates = "Aug 2019 - May 2020"
+        company = "Economics Department | Smith College"
+        
+        [[params.awards.list]]
+        title = "Teacher's Assistant and Grader"
+        dates = "Jan 2018 - May 2020"
+        company = "Economics Department | Smith College"
+        details = "Supported core economics courses throughout all levels: Intro Micro/Macro (Spring 2020); Intermediate Macro (Fall 2019); Inter Micro & Intro Micro/Macro (Spring 2018)"
+        
+        [[params.awards.list]]
+        title = "Quantitative Tutor"
+        dates = "Sep 2017 - May 2020"
+        company = "Economics Department | Smith College"
+        details = "Assisted introductory math courses (Pre-Calculus, Calculus I/II/III, Introductory Statistics)"
+        
+        [[params.awards.list]]
+        title = "Forbes Under 30 Scholar"
+        dates = "Oct 2019"
+        company = "Forbes"
+        details = "Scholarship to attend Forbes Under 30 Summit"
+        
+        [[params.awards.list]]
+        title = "Forté Foundation Liberal Arts to Business Leadership Conference"
+        dates = "Jun 2018"
+        company = "Oglivy & Mather"
+        
+        [[params.awards.list]]
+        title = "Women Early Insights Program"
+        dates = "April 2018"
+        company = "Morgan Stanley"
+        
+        [[params.awards.list]]
+        title = "Pedagogical Student Partner"
+        dates = "Sep 2017 - Jan 2018"
+        company = "Sherrerd Center for Teaching and Learning | Smith College"
+        details = "Collaborated with an Environmental Science professor to create a more equitable and inclusive classroom"
+ 
 
 
 
@@ -251,8 +290,9 @@ publishDir = "docs"
         [[params.projects.list]]
         title = "Smith College Communicating COVID-19"
         meta = "Smith College Group Project (Spring 2020)"
-        #icon = "fab fa-github"
-        text = "Public repo pending group approval"
+        icon = "fab fa-github"
+        url = "https://sds410-spring2020.github.io/SCC19/"
+        text = "Webpage Available | Public repo pending group approval"
         tagline = "Conducted sentiment text analysis on the community letters sent by the President to assess Smith College's response to the COVID-19 pandemic. Jeny led the scraping and cleaning process for the community letters."
 
         [[params.projects.list]]
