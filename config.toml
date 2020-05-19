@@ -232,10 +232,10 @@ publishDir = "docs"
     [params.experience]
         enable = true
 
-        #[[params.experience.list]]
-        #title = "Incoming Analyst"
-        #dates = "Sep 2020 - Present"
-        #company = "Analysis Group (Boston, MA)"
+        [[params.experience.list]]
+        title = "Incoming Analyst"
+        dates = "Sep 2020 - Present"
+        company = "Analysis Group (Boston, MA)"
    
 
         [[params.experience.list]]
