@@ -25,7 +25,7 @@ publishDir = "docs"
     [params.profile]
         enable = true
         name = "Jeny N. Kwon"
-        tagline = "Recent College Graduate"
+        tagline = "Data Analyst"
         avatar = "ppic.png"
 
 
@@ -232,6 +232,25 @@ publishDir = "docs"
     [params.experience]
         enable = true
    
+        [[params.experience.list]]
+        title = "Quantitative Data Analyst"
+        dates = "Aug 2020 - Present"
+        company = "Cogo Labs (Cambridge, MA)"
+        details = "R, Python, SQL"
+        [[params.experience.list.items]]
+        details = "Design and implement marketing programs"
+        [[params.experience.list.items]]
+        details = "Analyze performance metrics and drive growth in audience engagement and revenue"
+   
+        [[params.experience.list]]
+        title = "Technical Operations Management Intern"
+        dates = "Jul 2020 - Aug 2020"
+        company = "TrueMotion - TechOps (Boston, MA)"
+        details = "Tableu, Excel"
+        [[params.experience.list.items]]
+        details = "Developed a customized dashboard to display statistics relevant to the security systems and data"
+        [[params.experience.list.items]]
+        details = "Processed the data output to explore any business trends within the data "
 
         [[params.experience.list]]
         title = "Execution Team Summer Analyst"
