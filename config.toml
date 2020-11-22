@@ -99,13 +99,15 @@ publishDir = "docs"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
+        details = "SQL"
+        [[params.skills.list.items]]
         details = "R (scraping, wrangling, analysis, data visualization)"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
         details = "Java"
         [[params.skills.list.items]]
-        details = "SQL"
+        details = "git"
         [[params.skills.list.items]]
         details = "Power BI/Tableau"
         [[params.skills.list.items]]
@@ -234,7 +236,7 @@ publishDir = "docs"
    
         [[params.experience.list]]
         title = "Quantitative Data Analyst"
-        dates = "Aug 2020 - Present"
+        dates = "Aug 2020 - Nov 2020"
         company = "Cogo Labs (Cambridge, MA)"
         details = "R, Python, SQL"
         [[params.experience.list.items]]
